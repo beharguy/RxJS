@@ -177,11 +177,11 @@ var subscription = source.subscribe(
   function (e) { console.log('onError: %s', e); },
   function () { console.log('onCompleted'); });
 
+// => onNext: 0
 // => onNext: 1
 // => onNext: 2
 // => onNext: 3
 // => onNext: 4
-// => onNext: 5
 // => onCompleted
 
 ```
